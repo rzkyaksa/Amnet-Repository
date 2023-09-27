@@ -1,0 +1,30 @@
+.item-sidee:hover {
+  background-color: #688272;
+  color: white;
+  /* border-radius: 8px; */
+}
+
+.item-sidee {
+  border-radius: 8px;
+}
+
+.active-side {
+  background-color: #688272;
+  color: white;
+  border-radius: 8px;
+}
+
+.text-active {
+  color: white;
+  text-decoration: none;
+}
+
+.text-not-active {
+  color: #333333;
+  text-decoration: none;
+}
+
+.text-not-active:hover {
+  color: white;
+  text-decoration: none;
+}

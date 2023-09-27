@@ -1,0 +1,31 @@
+.active-nav {
+  color: #688272;
+}
+
+.not-active-nav {
+  color: black;
+}
+
+.active-nav:hover,
+.not-active-nav:hover {
+  color: #688272;
+}
+
+.navbar-nav > li {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  .left-side-nav {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .left-side-nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}

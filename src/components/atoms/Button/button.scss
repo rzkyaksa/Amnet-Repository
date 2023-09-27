@@ -1,0 +1,17 @@
+.button-wrapper{
+    display: flex;
+    justify-content: center; /* Mengatur tombol ke tengah secara horizontal */
+    align-items: center; /* Mengatur tombol ke tengah secara vertikal */
+}
+    .button{
+        padding: 12px;
+        font-size: 16px;
+        background-color: rgba(220,157,34,255);
+        width: 12%;
+        box-sizing: border-box;
+        border-radius: 100px;
+        border: none;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+}
