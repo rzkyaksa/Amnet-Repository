@@ -11,12 +11,13 @@ const AddArticlePage = () => {
           <div className="me-5 fw-bold" style={{ fontSize: 28 }}>
             Add Content
           </div>
-          <div>
+          <a href="https://docs.google.com/document/d/1rZy86-zbDkl3SnHWh7qiTGftC5w1QQGH/edit?usp=sharing&ouid=111865860740807580291&rtpof=true&sd=true" 
+          class="text-decoration-none" style={{color: "grey"}}>
             <div className="d-flex align-items-center" style={{ fontSize: 16 }}>
               <BsDownload color="#989898" size={24} className="me-2" />
               <div>Download Template</div>
             </div>
-          </div>
+          </a>
         </div>
         <form>
           <div className="form-group mb-3">

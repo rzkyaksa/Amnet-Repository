@@ -12,7 +12,7 @@ const NavbarAdmin = ({ page }) => {
   const [isLogin, setIsLogin] = useState(false);
   const dummyUser = {
     name: "Udin",
-    role: "Member",
+    role: "Admin",
     location: "Indonesia",
   };
 
